@@ -1,0 +1,256 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}  
+.header
+{
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: cursive;
+    width: 100vw;
+}
+.icon
+{
+    display: flex;
+    gap: 10px;
+}
+#header_button
+{
+    
+    border: none;
+        background: none;
+        color: white;
+        font-family: cursive;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+}
+.subheader
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
+    font-family: cursive;
+   
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.nav
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.nav p:hover
+{
+    border-bottom: 5px solid lightblue;
+    border-radius: 10px;
+    padding: 2px;
+}
+.fa-search
+{
+    background-color: black;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    display: flex;
+    width: 100vw;
+    position: relative;
+    overflow-y: hidden;
+
+}
+.conatin
+{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    top: 20%;
+    height: 100%;
+    width: 100%;
+}
+.para
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading1
+{
+    color: black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:  2px 4px #ffffff;
+}
+.heading2
+{
+    color: black;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:  2px 4px #ffffff;
+}
+.heading3
+{
+    
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main_button1
+{
+    border: none;
+    background: none;
+    color: white;
+    font-family: cursive;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background:linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+
+}
+.border
+{
+    margin-right: 30px;
+    height: 200px;
+    width: 3px;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+}
+.middle
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lunch_business
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.support
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.time
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.about
+{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    
+}
+.left
+{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 150px;
+}
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+#border_about
+{
+    height: 2px;
+    width: 100px;
+    border: 4px;
+    background:linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+}
+h3{
+    font-size: 2rem;
+
+}
+#para_about
+{
+    font-weight: 400;
+    font-size: larger
+}
+#about_button
+{
+    width: 200px;
+    border: none;
+    background: none;
+    border: 2px solid white;
+    border-radius:10px;
+    padding: 10px;
+    background:linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%) ;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.wrapper
+{
+    background: rgb(232,232,232);
+}
+.service
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 150px;
+    padding: 10px;
+    
+}
+.service_img
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.card1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
